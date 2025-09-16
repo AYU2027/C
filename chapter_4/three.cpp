@@ -10,5 +10,7 @@ int main(){
 
     cout<<a /6;
     cout<<tt/5;
+    cout<<r/4;
+
 
 }
