@@ -15,7 +15,10 @@ int main()
     }
 
     for (int i = 0; i < size; i++)
-    {
-        cout << myArray[i] << "  ";
+    {//cout<<*(myArray + i)<<"  ";
+        cout << myArray[i]  << "  ";
     }
+
+    delete[]myArray;//deallocating the mempry as it  is cerated with using th new keywords
+    myArray = NULL;//this acciently alloctaionn 
 }
