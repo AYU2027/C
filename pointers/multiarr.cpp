@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//multiple  dimenisonal array 
 int main(){
     int rows , cols;
     cout<< "rows" , "cols";
