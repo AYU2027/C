@@ -19,9 +19,14 @@ int getmax(int numbers[],int size){
     return max;
 }
 
-void getMinAndMax(int numbers[] int size,int* min ,int)
+// void getMinAndMax(int numbers[] int size,int* min ,int){
+    
+// }
 
 int main(){
     int numbers[5] = {5,4,-2,29,6};
+    cout<<"Max is "<<getmax(numbers,5)<<endl;
+    cout<<"MIn is "<<getmin(numbers,5)<<endl;
+
 
 }
